@@ -1,0 +1,164 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<header>
+    <a href="#" class="logo">Anu <span>Droz</span></a>
+    <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</header>
+<section class="home" id="home">
+    <div class="home-text">
+        <div class="slide">
+            <span class="one">Hello</span>
+            <span class="two">I'm</span>
+        </div>
+        <h1>Anurag km</h1>
+        <h3>Web <span>Developer</span></h3>
+
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="about.img">
+        <img src="../static/img/im2.png" alt="">
+    </div>
+    <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h4>Web Developer</h4>
+        <p>My name is ANURAG.K.M, and I'm the new [role] here at [company]. Among my
+                    previous job experiences, I’ve worked at [companies, roles, and responsibilities you’ve had in the
+                    past]. My goal is to [tasks and responsibilities], and I look forward to collaborating with each one
+                    of you to find better ways to perform my duties. I’ve heard a lot about the company culture, and
+                    because of this, I’m eager to meet everyone in more detail over the next couple of weeks. Among my
+                    personal interests are [hobbies and extracurricular activities]. Feel free to contact me if you have
+                    any questions or comments about my experience or onboarding process. I’ll be pleased to share more
+                    about my role and learn more about yours. Kindly, Anurag.</p>
+                    <a href="#" class="btn btn">More About</a>
+    </div>
+</section>
+<section class="portfolio" id="portfolio">
+    <div class="main-text">
+        <h2><span>My </span>Projects</h2>
+
+    </div>
+    <div class="portfolio-content">
+        <div class="row">
+            <img src="../static/img/spotify.webp"  alt="">
+            <div class="layer">
+                <h3>Spotify</h3>
+                <p>check out my site</p>
+                <a href="https://github.com/anukm20/bukspoti.git"><i><img src="../static/img/link.svg" width="30px" alt=""></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="../static/img/book.svg" alt="">
+            <div class="layer">
+                <h3>Bookmyshow</h3>
+                <p>check out my site</p>
+                <a href="https://github.com/anukm20/bookmyshow/tree/main/BOOKMYSHOW"><i><img src="../static/img/link.svg" width="30px" alt=""></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <img src="../static/img/mobil.webp" alt="">
+            <div class="layer">
+                <h3>Ecommerce</h3>
+                <p>check out my site</p>
+                <a href="https://github.com/anukm20/LAPTOP.git"><i><img src="../static/img/link.svg" width="30px" alt=""></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <img src="../static/img/lap.webp" alt="">
+            <div class="layer">
+                <h3>Ecommerce</h3>
+                <p>check out my site</p>
+                <a href="https://github.com/anukm20/MOBILE/tree/main/Mobile"><i><img src="../static/img/link.svg" width="30px" alt=""></i></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="services" id="skills">
+    <h2 class="heading text-center mb-4 mt-4"><span>SKILLS</span></h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="services-box">
+            <h3>front end</h3><hr>
+            <div class="skills">
+              <h4><span><img src="../static/img/html.svg" alt=""></span>HTML</h4>
+              <h4><span><img src="../static/img/css.svg" alt=""></span>CSS</h4>
+              <h4><span><img src="../static/img/bootstrap-icons.webp" alt=""></span>Bootstrap</h4>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="services-box">
+            <h3>back end</h3><hr>
+            <div class="skills">
+              <h4><span><img src="../static/img/django (1).svg" alt=""></span>Django</h4>
+              <h4><span><img src="../static/img/flask.webp" alt=""></span>Flask</h4>
+              <h4><span><img src="../static/img/sql-9.webp" alt=""></span>SQL</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="services-box">
+            <h3>others</h3><hr> 
+            <div class="skills">
+              <h4><span><img src="../static/img/Git_icon.svg" alt=""></span>Git</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  </section>
+
+
+
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact <span>Me!</span></h2>
+        <h4>If you have any project in your mind.</h4>
+        <p>I'm a web Designer - creating bold & brave interface design for companies all across the world.</p>
+        <div class="list">
+            <li><a href="#">9048512942</a></li>
+            <li><a href="#">anuanurag248@gmail.com</a></li>
+        </div>
+    </div>
+    <div class="contact-form">
+        <!-- <form action="/add_contact" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="phone">Phone:</label><br>
+            <input type="text" id="phone" name="phone"><br><br>
+            <input type="submit" value="Submit">
+        </form> -->
+        <form action="">
+            <input type="name" placeholder="your Name" required>
+            <input type="email" placeholder="your Email" required>
+            <input type="number" placeholder="Your Mobile Number" required>
+            <textarea name="" id="" cols="30" rows="9" placeholder="How can i help you"></textarea>
+            <input type="submit" value="Send Message" class="submit" required>
+        </form>
+    </div>
+</section>
+
+<section class="end">
+    <div class="last-text">
+        <p>Designed By Anu Droz</p>
+    </div>
+</section>
+{% endblock %}
